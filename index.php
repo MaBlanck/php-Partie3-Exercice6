@@ -10,10 +10,9 @@
 
     <ul>
     <?php 
-    for($number = 20; $number >= 0; $number--)
-    {
-        echo '<li>' . 'C\'est presque bon.' . '</li>';
-    }
-    ?></ul>
+    for($number = 20; $number >= 0; $number--): ?>
+    <li>C'est presque bon.</li>
+    <?php endfor;?>
+</ul>
 </body>
 </html>
